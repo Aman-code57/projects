@@ -1,12 +1,12 @@
 #constants
-target_number = 25
-maximum_guess = 3
+TARGET_NUMBER = 25
+MAXIMUM_GUESS = 3
 
 #intialize the guess
 guess_count = 0
 
 #start the gusessing loop
-while guess_count < maximum_guess:
+while guess_count < MAXIMUM_GUESS:
     num = int(input("enter the guess number: "))
     guess_count += 1
     
@@ -21,5 +21,5 @@ while guess_count < maximum_guess:
         print("invalid guess.you are close")
 
 #If loop completed without right guess        
-if num != target_number:
-    print(f"you reach out guesses.the target number is {target_number}")
+if num != TARGET_NUMBER:
+    print(f"you reach out guesses.the target number is {TARGET_NUMBER}")
