@@ -1,13 +1,16 @@
-# Intialize the fact and loop start value
+# Calculate the factorial of a number
+
+# Initialize variables
 fact = 1
-i= 1
+i = 1
 
-# Get input from user
-num = int(input("enter the number: "))
+# Get input from the user
+num = int(input("Enter the number: "))
 
-
-# start loop
+# Loop to calculate factorial
 while i <= num:
     fact = fact * i
     i += 1
-    print(fact)
+
+# Display the result
+print("Factorial of", num, "is:", fact)
